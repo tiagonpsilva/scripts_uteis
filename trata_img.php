@@ -2,7 +2,7 @@
 	/**
 	* TRATAMENTO DE IMAGENS
 	* @author Tiago N. Pinto Silva (tiago@tiagonpsilva.net)	
-	* @link http://www.exemplo.com
+	* @link git://github.com/tiagonpsilva/scripts_uteis.git
 	*
 	* @param string	$path		Diretório a ser pesquisado
 	* @param int	$executa	Se for passado 1, executa a operação de tratamento
