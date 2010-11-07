@@ -3,6 +3,12 @@
 	* TRATAMENTO DE IMAGENS
 	* @author Tiago N. Pinto Silva (tiago@tiagonpsilva.net)	
 	* @link git://github.com/tiagonpsilva/scripts_uteis.git
+	* @version 0.0.1
+	*
+	* @todo Tratamento de diretórios que possuem parenteses no nome 	
+	* @todo Vínculo com BD
+	* @todo Vínculo do script com BD
+	* @todo Interface gráfica
 	*
 	* @param string	$path		Diretório a ser pesquisado
 	* @param int	$executa	Se for passado 1, executa a operação de tratamento
