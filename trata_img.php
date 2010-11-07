@@ -15,7 +15,7 @@
 		
 		# Comando a ser executado no shell
 		$comando='mogrify ';		
-		$comando.="-resize 90% ";
+		$comando.="-resize $resize ";
 		$comando.="-quality $quality ";
 		
 		# Percorre o diretorio
@@ -43,12 +43,12 @@
 	
 	}
 	
-	$pathIni='/media/dados/outros/fotos/teste';	
+	$pathIni='/media/dados/outros/fotos/_ENVIAR';	
 	$tamanhoIni=exec('du -sh '.$pathIni);
 	
 	#Executa a funcao	
 	echo("################################################### \n\n");
-	trataImagem($pathIni,1,'90%',80);
+	trataImagem($pathIni,1,'80%',80);
 	$tamanhoFim=exec('du -sh '.$pathIni);
 	echo("\nTAMANHO INI : ".$tamanhoIni."\n");
 	echo("TAMANHO FIM : ".$tamanhoFim."\n");					
